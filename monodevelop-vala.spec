@@ -1,5 +1,5 @@
 Name:     	monodevelop-vala
-Version:	1.9.3
+Version:	2.0
 Release:	%mkrel 1
 License:	MIT
 BuildArch:      noarch
