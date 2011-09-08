@@ -6,7 +6,7 @@ BuildArch:      noarch
 URL:		http://www.go-mono.com
 Source0:	http://download.mono-project.com/sources/%name/%name-%version.tar.gz
 BuildRequires:  monodevelop >= %version
-BuildRequires:  mono-addins-devel
+BuildRequires:  mono-devel
 Summary:	Monodevelop Vala Addin
 Group:		Development/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
