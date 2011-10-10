@@ -8,6 +8,7 @@ Source0:	http://download.mono-project.com/sources/%name/%name-%version.tar.bz2
 BuildRequires:  monodevelop >= %version
 BuildRequires:  mono-devel
 BuildRequires:  mono-addins-devel
+BuildRequires:  vala-devel
 Summary:	Monodevelop Vala Addin
 Group:		Development/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
