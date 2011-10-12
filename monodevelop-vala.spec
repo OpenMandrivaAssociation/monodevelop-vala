@@ -12,6 +12,8 @@ BuildRequires:  monodevelop >= %version
 BuildRequires:  mono-devel
 BuildRequires:  mono-addins-devel
 BuildRequires:  vala-devel >= %vala
+#gw not yet packaged yet: http://code.google.com/p/vtg/
+#BuildRequires:  libafrodite-devel
 Summary:	Monodevelop Vala Addin
 Group:		Development/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
