@@ -6,6 +6,8 @@ License:	MIT
 BuildArch:      noarch
 URL:		http://www.go-mono.com
 Source0:	http://download.mono-project.com/sources/%name/%name-%version.tar.bz2
+#gw missing form the 2.8 tarball:
+Source1:	MonoDevelop.ValaBinding.dll.config
 BuildRequires:  monodevelop >= %version
 BuildRequires:  mono-devel
 BuildRequires:  mono-addins-devel
@@ -21,6 +23,7 @@ Monodevelop Vala Addin
 
 %prep
 %setup -q
+cp %SOURCE1 .
 
 %build
 ./configure --prefix=%_prefix
