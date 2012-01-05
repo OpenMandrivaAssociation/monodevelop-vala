@@ -1,6 +1,6 @@
 %define vala 0.12
 Name:     	monodevelop-vala
-Version:	2.8.2
+Version:	2.8.5
 Release:	%mkrel 1
 License:	MIT
 BuildArch:      noarch
