@@ -6,6 +6,11 @@ License:	MIT
 BuildArch:      noarch
 URL:		https://www.go-mono.com
 Source0:	http://download.mono-project.com/sources/%name/%name-%version.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  monodevelop >= %version
 BuildRequires:  mono-devel
 BuildRequires:  mono-addins-devel
